@@ -1,0 +1,46 @@
+# Site Info
+title:              "Eva Portelance"
+description:        "personal webpage"
+author_name:        "Eva Portelance" # change this to your name
+logo_url:           https://avatars.githubusercontent.com/u/18502002?v=4 # Get it from GitHub API: https://api.github.com/users/<username>
+
+# Site Settings
+url:                https://evaportelance.github.io # main url
+baseurl:            /evaportelance.github.io
+permalink:          /:title # Post permalink
+timezone:           America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+mathjax:            true  # enables support for mathjax - set to 'false' to disable
+
+# Site Build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script", "index-old.html" ]
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: heiswayi/the-plain
+
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
