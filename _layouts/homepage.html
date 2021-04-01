@@ -1,13 +1,31 @@
 ---
-layout: default
+layout: compress
+published: true
 ---
 
-<article>
+<!DOCTYPE html>
+<html lang="en">
 
-	<h1 class="title">{{ page.title }}</h1>
+	<head>
+		{% include head.html %}
+	</head>
 
-	<div class="divider"></div>
+	<body>
 
-	{{ content }}
+		{% include header.html %}
 
-</article>
+		<article>
+
+			<h1 class="title">{{ page.title }}</h1>
+
+			<div class="divider"></div>
+
+			{{ content }}
+
+		</article>
+
+		{% include footer.html %}
+
+	</body>
+
+</html>
