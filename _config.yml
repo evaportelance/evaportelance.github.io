@@ -6,7 +6,6 @@ logo_url:           https://avatars.githubusercontent.com/u/18502002?v=4 # Get i
 
 # Site Settings
 url:                https://evaportelance.github.io # main url
-baseurl:            /evaportelance.github.io
 permalink:          /:title # Post permalink
 timezone:           America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
