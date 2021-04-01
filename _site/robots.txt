@@ -1,0 +1,4 @@
+sitemap: https://evaportelance.github.io/evaportelance.github.io/sitemap.xml
+
+user-agent: EmailCollector
+disallow: /
