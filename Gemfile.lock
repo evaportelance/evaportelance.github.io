@@ -102,6 +102,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 2.0.2)
   html-proofer
+  jekyll (~> 3.9)
   jekyll-remote-theme
   jekyll-sitemap
   kramdown-parser-gfm

@@ -8,3 +8,5 @@ gem 'tzinfo'
 gem 'tzinfo-data'
 gem 'jekyll-remote-theme'
 gem 'kramdown-parser-gfm'
+
+gem "jekyll", "~> 3.9"
