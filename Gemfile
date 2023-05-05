@@ -10,3 +10,5 @@ gem 'jekyll-remote-theme'
 gem 'kramdown-parser-gfm'
 
 gem "jekyll", "~> 3.9"
+
+gem "webrick", "~> 1.8"
